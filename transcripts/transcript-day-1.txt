@@ -1,0 +1,1475 @@
+Transcript of Day 1 of 100Days of Python:
+
+Now,
+
+hopefully, you've already got everything set up so that you're ready to go on the Day 1 tasks, and you're
+
+able to see what I'm seeing right here.
+
+Now, if you don't know what I'm talking about, or if you don't have access to any of this, be sure
+
+to go back to the previous lesson where I showed you, step-by-step, 'How to Download' and get hold of
+
+the latest version of the Curriculum Exercises on PyCharm. So be sure you do that before you proceed,
+
+so that we're all starting at the same place and you're seeing exactly what is shown in the videos,
+
+and we're ready to start learning how to program.
+
+Now, remember that the whole reason why we're learning to program is to be able to tell the computer
+
+what it needs to do, and for it to follow our commands.
+
+So let's go ahead and tell the computer to do something.
+
+And we're going to do that by writing our first line of code.
+
+So in this case I'm creating something called a "print function", which is just the word print all in
+
+lowercase and then followed by a set of parentheses().
+
+Now inside these parentheses, I'm going to tell it what I want it to print.
+
+And hopefully it's going to output that inside our console.
+
+So I'm going to start off by writing the classic "Hello world!" inside here,
+
+and then once you're ready then go ahead and click Run.
+
+After a few seconds you should see the computer follow your command, namely printing the words that
+
+you told it to print inside the console or the output area over here.
+
+And once it's done, it indicates that by writing, "Process finished with exit code 0", which means
+
+everything was successful, everything was run without any issues.
+
+Now, just to break down this area a little bit more for you, if you look at the top line here, which
+
+you'll always, always see, there's a lot of text in here, but it's actually very simple to understand.
+
+Essentially, it's telling you the location of the current file that is being run that has resulted in
+
+this output.
+
+So in our case, it's the Day 1 task.
+
+And you'll see this change as you go through the different days
+
+because the location of this file, where you wrote the code, will change.
+
+So the first line is the location of the file that you executed.
+
+The second line, or multiple lines in between, is the result of your command to the computer.
+
+And then finally at the very, very end, it tells you if the process finished with success, which
+
+is in this case, or if there are any other issues, it would show up here as well, which we're going
+
+to see very, very shortly.
+
+And to be sure that you're always running the current file, make sure that this drop down is selected
+
+as Current File,
+
+and that way, every time you press the play button here, it will run the code into the output area.
+
+Now if you want to do a shortcut and you're really into keyboard shortcuts, you can hover over the
+
+play button and you'll see the shortcut on what I'm using, which is a Mac, is Control + R, in Windows
+
+or Linux,
+
+it'll show up different shortcuts, but it should all show up there if you want to try that out.
+
+Alternatively, just keep pressing the play button and it works just as well.
+
+And the way that this command works is super simple.
+
+You have the keyword, "print", followed by a set of parentheses, and then inside the parentheses, you
+
+tell it what you want it to print.
+
+And once you've inserted that, then when this line of code gets executed by the computer, it'll know
+
+to simply print or output the thing that you've placed in between the parentheses.
+
+But notice here that it's not just the word, "Hello world!", that I've put inside my parentheses,
+
+I've also added some quotation marks or double quotes around the word,
+
+and the reason why I've done this is so that I can tell the computer that this bit here, in between
+
+the double quotes, is not code.
+
+It's not like print where it's supposed to do something,
+
+this is just some text that I've made up, that I want it to print out.
+
+And these pieces of text in programming lingo, is known as "Strings".
+
+And you can imagine it as almost like a pearl necklace.
+
+Right?
+
+It's a string of characters.
+
+And what the double quotes do, is they basically show the beginning and the end of that string of characters.
+
+So that means you have to be really careful when you're typing.
+
+For example, if I go ahead and I miss out the closing double quote, well, now you can see that there's
+
+some changes that have happened to our code already, namely that the last parentheses, instead of
+
+being colored in white like the opening parentheses or how it used to be, it's now colored in green,
+
+the same color as the rest of our text or our string.
+
+And this is a subtle hint to us.
+
+You're going to get really attuned to these subtle hints, because they are the clues that will tell
+
+you what might have gone wrong in your code.
+
+If I run this code as it is right now, it's going to break.
+
+It's going to give me a SyntaxError, and it says something that seems like it's completely not English.
+
+So how can we figure out what this means?
+
+Now, the thing I want you to know is that all programmers make mistakes.
+
+We all make lots of errors, like forgetting to add the double quotes at the end of the string, or
+
+forgetting to add a closing parentheses.
+
+These things are just common errors because we're human.
+
+But the thing that differentiates great programmers is we're really good at figuring out what the problem
+
+is and how to fix it.
+
+So you can imagine that coding is just a whole bunch of problems that you have to solve.
+
+And in this case, when we get some sort of red text, and our code is not doing what we expect it to do,
+
+then all we have to do is take this entire error message where it says something, something error,
+
+and this is some sort of message that we're supposed to understand, and we're simply going to drop
+
+it into Google.
+
+And usually the first link you come across will be from a website called stackoverflow.com.
+
+And this is basically the Q&A website that all developers will go to whenever something is wrong with
+
+their code, or when they can't figure out how to do something.
+
+So if we click on this link, you can see that somebody else has also had this error,
+
+and some kind souls have told us that the solution might be the fact that you're missing a double quote
+
+before the end of the line.
+
+So if we take a look back at our code, the code that generated this error looks like this.
+
+And indeed, we are missing a double quote at the end of our string.
+
+As you're learning to code, as you're going through your 100 Days, I want you to become more and more
+
+attuned to the color of your code, because one of the most helpful things that code editors such as
+
+this do for us is something called, "Syntax highlighting".
+
+For example, when I was missing that double quote, it highlighted this entire thing and that is basically
+
+it telling us, it seems like this whole thing is some text.
+
+It thinks that all of this is a string and that we're missing a closing parenthesis.
+
+So if you notice this and you're like, wait, actually that's not right,
+
+this part should match the color of the open brace, which is white.
+
+So there must be something wrong here.
+
+And indeed, if you have a look at the error message, it actually has a little caret sign right here
+
+showing you that there's something that's probably not right here.
+
+And it might jog your memory that, "Oh yeah, I've forgotten a closing double quote."
+
+Now, the really handy thing about PyCharm is it actually underlines your errors before you even run
+
+your code.
+
+And if you hover over the underline, it usually gives you some intelligent guess as to what your problem
+
+might be.
+
+And in this case, it's absolutely spot on.
+
+It says, you're missing a closing quote, which is exactly what we're missing.
+
+So that will also be really helpful for us to figure out what it is that we need to do.
+
+But as with all things with AI, if we don't know what we're doing in the first place, these hints
+
+don't help us that much.
+
+For example, if I put the closing quote right here, I've got other problems and I'm going to create
+
+more problems for myself.
+
+So it's important that we first understand how things work and then use technology and AI to help us,
+
+such as in this case, to fix our bug.
+
+Now, you'll notice that there is also a tiny squiggly line under this closing brace, but in this case,
+
+it's not in red, so it's not an error, but instead it's in yellow, which is a warning.
+
+Now, most of these warnings come from a good standard practice for how to write code.
+
+And if we hover over this warning, it tells us that PEP 8, which is guidance for how to write
+
+Python code, and it tells you that the problem that it's seeing is there's no new line at the end of
+
+the file.
+
+Now, we can ignore all of this because it's a bit too complicated, and it's actually very simple to
+
+solve this problem.
+
+All it's saying is that in good practice, when we're writing Python code, there should be a new line
+
+at the end of the file so that we have our cursor down here instead of ending right there.
+
+And that's all there is to it.
+
+And with that one thing, we've gotten rid of all our errors,
+
+we've gotten rid of all our warnings,
+
+our code looks good stylistically, as well as syntactically.
+
+All these big words that all that it means is that it looks great in every single way.
+
+And we've got our little check mark, which means no problems found by the editor.
+
+Now, sometimes the editor can be really picky, and some of the things that it tells you, you can safely
+
+ignore,
+
+but as always, we need to understand how everything works before we can do that.
+
+So now that we've embarked on our first step to write some code and start commanding the computer to
+
+do what we want it to do, which is to print out some words into the output area,
+
+it's now time for a challenge.
+
+So head over to the next lesson, and we're going to test you on what you've learned in this lesson
+
+by practicing writing some print statements.
+
+So for all of that and more, I'll see you on the next lesson.
+
+
+Codind exercise 1: Printing Practice:
+Write a program that uses print statements to print the following recipe into the Output console. The text to print is already there, you just need to make it into code. Your code should print all five lines exactly the same. Make sure that you don't change any of these existing text as everything, punctuation and casing all need to match!
+
+1. Mix 500g of Flour, 10g Yeast and 300ml Water in a bowl.
+2. Knead the dough for 10 minutes.
+3. Add 3g of Salt.
+4. Leave to rise for 2 hours.
+5. Bake at 200 degrees C for 30 minutes.
+print("1. Mix 500g of Flour, 10g Yeast and 300ml Water in a bowl.")
+print("2. Knead the dough for 10 minutes.") 
+print("3. Add 3g of Salt.")
+print("4. Leave to rise for 2 hours.")
+print("5. Bake at 200 degrees C for 30 minutes.")
+
+
+
+All right, guys, let's get back to learning about a few more things that we can do with strings.
+
+You saw in the last lesson that if we wanted to print things on individual lines, then we actually
+
+had to write them a few times, right?
+
+We had to write print on three lines if we wanted it to be printed one, two, three,
+
+like so.
+
+Now in this lesson, I want to show you a method where we can do the same thing, but by using a single
+
+print() method, so saving ourselves a few characters.
+
+So the way that we would create a new line is by writing a backslash and the n character (\n).
+
+And now if I go ahead and write "Hello world!" again afterwards, and I hit Run, and you can see that
+
+once that line of code has been executed, I've got "Hello world!" printed on two separate lines, separated
+
+by this \n character, which gets replaced by a new line.
+
+So go ahead and give that a go and see if you can create another one.
+
+Remember though, it's a backslash (\) and not a forward slash (/).
+
+But the syntax highlighting should help you.
+
+All right.
+
+We can simply just add another \n and remember that unless you want a space to appear right
+
+before where your "Hello world!" appears, you actually don't want any gaps between each of these lines.
+
+There we go.
+
+We've got the same result as before, but now using only a single print statement and creating some
+
+new lines with the \n.
+
+Now, one of the other things that we can do with strings is we can concatenate them.
+
+What this means is we combine different strings so that they will be added to the end of another string.
+
+Here's an example,
+
+let's say that we had the word Hello, and I wanted to add my name to the end of this word to make it
+
+a single string.
+
+Well, I can combine two strings by simply using a plus sign so I can write "Hello" + "Angela".
+
+Now here's a question,
+
+when this runs, what do you think it will look like?
+
+Do you think it'll write, Hello Angela or HelloAngela,
+
+all in one word?
+
+Let's see what happens.
+
+You can see that these two strings have now been combined into one, and there's no space in between
+
+because we don't have a space character anywhere in here.
+
+Pause the video and see if you can add a space in between.
+
+All right.
+
+So there's two ways that you can do this.
+
+Well maybe three actually, you could add a space to the end of Hello,
+
+you could add a space to the beginning of Angela, or you can actually continue using string concatenation
+
+by simply adding another string in between these two,
+
+and this one is just a space.
+
+So now when I run my code you can see the space gets inserted, and this long thing gets combined into
+
+a single string that looks like this
+
+once this bit of the code gets executed. If we think of strings as a string of connected characters,
+
+then string concatenation is simply taking those separate strings of characters and merging them into
+
+one.
+
+Now, this is a good point to mention that in Python programming spaces are really, really important.
+
+And what I mean by this is not so much the spaces that are inside strings like this one, but the spaces
+
+that you add in your code.
+
+So here you can see that the print statement starts at the very beginning of this Line 2,
+
+but what happens if I add a space before the print statement?
+
+Now you can see I've got the editor screaming at me already.
+
+I've got errors, I've got squiggly lines, and if I run this code as it is, I'll get something that's
+
+called an IndentationError.
+
+Now this is different to the previous error we had which was a SyntaxError.
+
+Now what this error tells you is that there is an unexpected indent around this part of your code.
+
+That's what the error message is telling me.
+
+So we can then go and investigate and see our squiggly lines and we can hopefully realize that, "Oops,
+
+we've added an extra space which we can easily get rid of," and it will calm everything down and get
+
+rid of that error.
+
+So remember, previously we were missing a closing quotation mark and we got a SyntaxError,
+
+and in this case, we have an indentationError by either adding in an aberrant space or accidentally inserting
+
+even a whole tab which is created using the tab key.
+
+And all of these things will give you indentation errors.
+
+So it's really important that you be careful when you're adding spaces in your Python code.
+
+It doesn't matter so much when we have spaces in between the quotation marks, because that's a part
+
+of the string, but anywhere that is a part of the code.
+
+So in this case, anything that's not green and you go ahead and add some spaces, you might end up
+
+with an IndentationError.
+
+Now you might also, when you add spaces in your code, not have an IndentationError because the code
+
+can function,
+
+for example, if I add a space between print and the parentheses,
+
+but in this case nothing really changes in terms of our output,
+
+but we do get a warning because this is not really ideally how we should format our code.
+
+So our warning tells us that according to PEP 8 and best practices, there shouldn't be whitespace before
+
+an open parenthesis.
+
+So we can also use that hint to get rid of any of these issues.
+
+So the message here is be careful when you're adding spaces.
+
+Make sure you know what it's doing,
+
+and when you see the error, IndentationError,
+
+remember what you learned in this lesson to be able to fix it. Now, as helpful as these warnings and
+
+errors are, you'll notice that I'm putting a lot of emphasis on looking at the errors that come out
+
+after we hit Run,
+
+and that's because this comes from the Python compiler itself.
+
+This will be the same whenever you write Python code.
+
+However, these squiggly lines and these errors that you get when you hover over them are specific to
+
+the editor that we're using here, which is PyCharm.
+
+Now, if you happen to be using a different type of editor, they might not give you the same kind of
+
+warnings, and they might not give you the same kind of errors.
+
+And the messages will also be wildly different.
+
+So it's always really important to learn the errors that you get back after you run your code,
+
+and to remember these words SyntaxError or IndentationError,
+
+and this is something that will help you no matter what tools you use, making you a more flexible developer.
+
+And we're going to see this in practice right now because I've got a debugging exercise coming up for
+
+you right after this lesson, and we're going to be doing it inside a different editor without the assistance
+
+of all of these helpful squiggly lines.
+
+So can you rely on your skills, your ability to debug when you run your code and see error messages,
+
+and go through each of the lines of the debugging exercise one by one, and fix each problem from top
+
+to bottom.
+
+This word debugging actually comes from a story where back in the 80s, a moth actually flew into one
+
+of the early computers and it got electrocuted,
+
+unfortunately for the moth, and for the programmer, it meant that his code wasn't performing as he would
+
+expect it to, so he actually had to go into the computer, pick out the moth and fix the wires so that
+
+it would work again.
+
+Now, we don't have any moths flying around in our code, thankfully, but what we do have to do is
+
+we have to pick out the errors so that our code will run in the way that we expect it to without any
+
+errors.
+
+So head over to the next lesson and try out your first debugging exercise.
+
+Now, if you head over to task number three, in today's set of exercises, you'll see the code that
+
+we had from previously.
+
+And today I want to talk about a different function.
+
+So we've seen the print function and all the things that we can do to strings and use the print function
+
+and debug it.
+
+But what if we wanted to be able to enter some data.
+
+So if we wanted to say ask the user what is your name?
+
+And we run this code, you can see that being printed, but there's no way for the user on this side
+
+to be able to give our code some data to work with.
+
+In order to do that, instead of using the print function, we're going to use a different function,
+
+and it's called the input function.
+
+And notice how as I'm typing code, intelligence is already giving me some suggestions because it thinks
+
+it knows what I might want and it's right.
+
+So this is what the input function looks like.
+
+This is the name of the function.
+
+And again it's followed by some parentheses.
+
+Inside the parentheses is the prompt that I'm going to give the user.
+
+So when I run this code it will say what is your name.
+
+Now this time you'll notice a couple of differences.
+
+Firstly it doesn't have that final line process finished with exit code zero.
+
+It's actually not saying anything at all.
+
+Plus, when you look up here, you'll see that in addition to the play button, there's the stop button
+
+being highlighted and the play button has changed this rerun symbol.
+
+So what does all of this mean?
+
+Well, it means that we're actually in the middle of the process of running our code.
+
+It hasn't exited yet.
+
+And what exactly is it waiting for?
+
+Well, it's waiting for us to click into this output pane and actually type in an input.
+
+So the prompt is the text that goes into the input command, and then afterwards we can add some actual
+
+input, whatever it is we want into the output area.
+
+And now once I hit enter, you'll see that finally we have the process finished with exit code.
+
+You'll see the stop button is gone and we can now rerun the code as usual.
+
+But where did this text go and how can we capture it?
+
+The input function looks pretty much identical to the print function, but instead of the word print,
+
+it's just got the word input and inside the parentheses.
+
+Instead of adding what text will be printed, we're adding the prompt for the user to give them a hint
+
+as to what kind of data we want.
+
+And then when you run this code, it will print out the prompt, but then there will be a cursor.
+
+In some places you'll see it like a flashing cursor, other places it'll just be a solid cursor.
+
+And in some places you won't even see a cursor until you click into the output area ready for the user
+
+to type in some piece of data.
+
+So what can we do with this data?
+
+Well, we can use it inside our code.
+
+Now the way that this works is when this line is run by the computer, it takes your command as understanding
+
+that you want the user.
+
+So somebody to be able to you want the user to be able to type in an input into this area and whatever
+
+it is they type, you're going to take it back into the code and replace this command with it.
+
+So this is a little bit abstract when we see it like this.
+
+But let's imagine we wanted to write a print statement and we wanted to say hello.
+
+And we wanted to greet the user.
+
+Now I know that in my case my name is Angela.
+
+So I would get it to say hello Angela.
+
+But what if you didn't know the name of your user.
+
+Well, you wouldn't just want to say hello user or hello something generic.
+
+You would want them to be able to type in their name.
+
+So this is where a little bit of string concatenation comes in, which we learned before.
+
+If we take this input function that we've explored just now, and we paste it into this print statement.
+
+So this can be a little bit confusing.
+
+So just concentrate right here.
+
+There's two parentheses at the end.
+
+And the reason for this is because this first one closes off the print statement.
+
+So we're saying everything between here and here.
+
+We want it to be printed.
+
+Now what is in between there.
+
+Well firstly it's the string that says hello and then a space and then what we had as the input.
+
+So whatever the user types into here will replace this highlighted part.
+
+And we'll end up with hello concatenate.
+
+So add to another string.
+
+So let's try this out.
+
+Let's go ahead and hit run and you can see the prompt show up in the output area.
+
+So now if I click into this area, my cursor starts flashing and I can type whatever it is I want.
+
+Now when I hit enter, what I type is going to go and replace this input function.
+
+And then once it's in there, the print function is going to carry out its role and it's going to add
+
+the word hello in front of it.
+
+And then print it out right here so we can see now hello Angela.
+
+But this is of course making our code a lot more adaptable.
+
+So if tomorrow I decided to change my name to a cherry.
+
+There's a really embarrassing story about this.
+
+So when I first moved to the UK, I wanted to pick my own name because I was nine years old and I wanted
+
+a very, uh, fruit related name.
+
+Um, and this was the name that I wanted.
+
+And my parents, as, as wise as they are, said, no, we will take your name.
+
+So that's how I ended up with the name Angela.
+
+So now you can see this gets added in to the hello and we can have a completely adaptable bit of code.
+
+So now it's time for a small challenge.
+
+Can you use what you've learnt from previous lessons and also this lesson to figure out how to add a
+
+exclamation mark to the end of the sentence that's being printed.
+
+So instead of just hello Angela, we want the output to say hello.
+
+And then we take in whatever it is the user inputs into here.
+
+And then we replace that with the user input.
+
+And finally we add an exclamation mark.
+
+Now of course we have to do this using strings and using what we've learned about Python code.
+
+So pause the video, read the description of the problem and see if you can solve it.
+
+Okay, so if you remember from string Catenation.
+
+What we need to do is we need to treat this input function as its own string, because eventually it's
+
+going to be replaced by a string.
+
+So we can take that part, set it aside, and then we can use the plus sign to concatenate the final
+
+character, which is a exclamation mark to this entire long string.
+
+So now if I go ahead and run this code and I type in an input, that input gets inserted and replaces
+
+this entire input function.
+
+And then finally I get the exclamation mark added to the end.
+
+If you find this line of code difficult to understand and to wrap your head around, then I recommend
+
+heading over to a website called thonny.
+
+Org and downloading an application called Thonny.
+
+It's completely free and it's available for windows, Mac and Linux.
+
+And once you've installed this application, you can go ahead and paste your line of code here and click
+
+on this little debug symbol.
+
+And then we can click on this button which is called the step into button, to step into the execution
+
+of this line of code to see how the computer is evaluating this code here step by step.
+
+So you'll see the first thing it tries to do is it will try to run this print statement.
+
+It looks inside these parentheses to see what it needs to print.
+
+So the first thing is this hello.
+
+And it turns that into a string.
+
+And then it looks at the next thing after the plus sign to see what it should turn this into.
+
+And this of course is the input function.
+
+So as I continue stepping into it it's actually going to execute it.
+
+So it's going to run this input function and show the prompt.
+
+What is your name.
+
+So that's what shows up down here.
+
+And now if I enter a value in here and hit enter, then that value that I put right there replaces that
+
+previous input function and is now held inside the print statement.
+
+So if I continue stepping through this code.
+
+Then you'll see it concatenates all of the pieces together.
+
+And finally it just ends up with a simple print.
+
+Hello, Angela!
+
+Exclamation mark.
+
+And if I continue stepping into it, you'll see that line of code executed until there are no more instructions
+
+left.
+
+So if you prefer seeing your code, um, run like this step by step so that you can see what's going
+
+on, then I recommend giving this a go.
+
+As you're learning to code, there's going to be new concepts covered.
+
+There's going to be things that take a little bit of thinking before you can understand it.
+
+So what a lot of programmers love to do is they like to comment in their code.
+
+Now, you might have seen this already throughout the coding exercises and the solutions I provided,
+
+but in Python, if you wanted a line of text to not be considered by the computer at all, all you have
+
+to do is add the hashtag or pound sign in front of your text, and this turns it into a comment.
+
+So something that the computer will completely ignore.
+
+So in here you can write code as much as you like, but it won't be executed.
+
+And when you click run, you'll see that this is completely ignored.
+
+What I recommend is whenever you come across a new concept in the course, to make a comment above it
+
+so that you can explain to yourself what's actually going on in the line of code below.
+
+This way, the next time you come across this line of code and you're not quite sure what's actually
+
+happening here, you can have a look at the notes that you've written for yourself in your own words,
+
+and hopefully it'll jog your memory and make it much easier to comprehend what's going on.
+
+In addition to adding a pound sign manually, you can also highlight a line of code or simply have your
+
+cursor on a line of code and hold down command and forward slash.
+
+If you're on Mac or Control and forward slash if you're on windows.
+
+And what this does is it takes this line of code out of the computer's awareness, and it's no longer
+
+executed when you run this code file.
+
+So the process is finished without anything being carried out at all, because all the computer is seeing
+
+is a blank page, because we've taken all the code out into comments.
+
+So in order to take this back into code, all you have to do is use the same command that you tried
+
+just now.
+
+So command forward slash on Mac or control forward slash on windows.
+
+And this will now again be considered as code by the computer.
+
+All right.
+
+So in this lesson we learned about the input function.
+
+We learned about putting functions inside other functions and being able to get user input from the
+
+console by using the input function.
+
+And if you've commented this line of code thoroughly and you've fully understood how it works, then
+
+you'll be able to breeze through the next exercise.
+
+So for all of that and more, I'll see you there.
+
+Coding Practice 2: Debugging Practice
+Look at the code in the code editor. There are errors on all 5 lines of code. Fix the code so that it runs without errors.
+print(Notes from Day 1")
+ print("The print statement is used to output strings")
+print("Strings are strings of characters"
+priint("String Concatenation is done with the + sign")
+print(("New lines can be created with a \ and the letter n")
+
+Try to run the code and debug each line using the error messages and feedback.
+Example Output
+Notes from Day 1
+The print statement is used to output strings
+Strings are strings of characters
+String Concatenation is done with the + sign
+New lines can be created with a \ and the letter n
+
+Code:
+print("Notes from Day 1")
+print("The print statement is used to output strings")
+print("Strings are strings of characters")
+print("String Concatenation is done with the + sign")
+print("New lines can be created with a \ and the letter n")
+
+
+
+Now, in this lesson, I want to talk to you about Python variables,
+
+and it's a really, really useful concept.
+
+The first thing I want to do is to take a look at this line of code that you should have already, and
+
+when we run this, we should be pretty familiar with what happens, right?
+
+It will ask us for our name and when we hit Enter, nothing happens,
+
+but behind the scenes, this name or this input has now been received by this function.
+
+But once that's done, it kind of just disappears, right?
+
+And there's no way for us to be able to refer to it in the future.
+
+Or is there?
+
+Well, this is where variables come in really handy,
+
+if I give the result of this action, a name, well,
+
+then I'll be able to refer to it later on.
+
+So at the beginning of the line, I'm going to call it name, and then I'm going to add an equal sign,
+
+and what this does is it assigns whatever it is that the user typed in as the input to this prompt to
+
+a variable called name.
+
+So now if I go ahead and run my code again and I enter a name.
+
+Now, once I hit Enter, normally there's no way for me to get hold of this anymore, right?
+
+But now I can actually go ahead and write
+
+print,
+
+I'm going to print the value of this variable name.
+
+So now if I run my code and I write a name, hit Enter,
+
+you'll see that this gets printed.
+
+And I can use this at any point in my code just by referring to the name that's attached to this value.
+
+So it's almost like we've saved the data from this action to a name.
+
+And if you think about it, if you had a phone book, let's say, and you just jotted down the numbers
+
+of people, the next time you look at this, there's no way for you to know whose number that is, right?
+
+In a sense, it's the same thing with the computer,
+
+even though we've inputted this piece of data, there's no way for us to be able to refer to this data
+
+unless we give it a name.
+
+So in our phone book, we might say that this particular number is associated with the name James.
+
+And in programming, we would call this name, james, a variable.
+
+So we could write something like James =, and then his phone number.
+
+And this means that in the future, if we ever need this piece of data, we can just refer to it by
+
+its name,
+
+the variable name of james.
+
+Now, as the name variable suggests, it's something that can be changed or can be varied.
+
+So for example, just because this name is set to something up here doesn't mean that I can't change
+
+it later on.
+
+So to make things simple, let's go ahead and delete the input() function,
+
+and let's just say name is equal to jack. print("name").
+
+When I run that, jack is what gets printed inside the console, because I'm now referring to that piece
+
+of data by the variable name.
+
+But if later on I decide to give this variable a different piece of data to hold on to, let's say,
+
+Angela, and I print(name) at this time point after I've changed it,
+
+what do you think these two lines will print?
+
+What do you think will first be printed?
+
+What do you think will be printed second?
+
+So even though they're both printing the same variable at this point, when we first call print, it's
+
+holding on to the value of jack,
+
+but by Line 5, I've now changed it so that it's holding on to the value of Angela.
+
+So to practice that, I have a challenge for you.
+
+So I want you to be able to figure out how many characters are in the name that the user types in using
+
+the input() function. So you already know how the input function works,
+
+you already know how to get the user to enter it, and then to get that data back into our code and
+
+print it out,
+
+but here's the extra step,
+
+"Can you calculate how many characters there are in the name that they type in?"
+
+For example, if they typed in jack, that would be four.
+
+If they typed in Angela that would be six.
+
+Now how do we figure out things when we're programming and we're trying to do something that we haven't
+
+done before?
+
+Well, one of the most important skills as a programmer is to be able to use Google well.
+
+It's to be able to find the answers that you need because it's inevitable that you won't remember
+
+every single function and you won't know every single function.
+
+So we need to read documentation and we need to know how to get hold of it.
+
+So very simple,
+
+we start off with our query, "how to find the length of a string."
+
+And then we add our programming language because this will be different in every programming language.
+
+So I normally just add Python to the end of it.
+
+And then once we hit Enter, normally we'll get hold of some form of documentation,
+
+and the W3Schools documentation for Python is not bad.
+
+And you can also browse through all of the other examples.
+
+So normally for Python, I stick to W3Schools or StackOverflow,
+
+and both of these will give you the right answer.
+
+But if we are reading documentation then you can see that normally there is a whole bunch of other things
+
+that we can look up, just like a dictionary of Python.
+
+Now, as you wouldn't start with a dictionary when you're learning a new language,
+
+believe me, I tried that,
+
+it did not work,
+
+you also wouldn't want to learn through everything in the documentation because it's very dry.
+
+And when you don't have a real-life application, when you're not trying to use a particular function
+
+or some sort of component, then you also don't remember it very well.
+
+So I recommend to find what you need when you need it,
+
+and our brain is for thinking and not for storing,
+
+because these days, as you know, it's super cheap to buy a single terabyte, storage hard disk
+
+online.
+
+I think it costs something like 10 or $20 and it's just getting cheaper every day.
+
+So don't use your brain to store things,
+
+use it to think.
+
+But coming back to our documentation here, in order to get the Python string length, we use the len()
+
+function.
+
+And just like the print() function, it's an inbuilt function in Python,
+
+so we can simply just write len(),
+
+and then we can use whatever it is we want to measure.
+
+For example, in this case it's, "Hello world!" and it will output the number of characters in that string.
+
+So now give it a go yourself.
+
+So the pause one is the instruction set.
+
+And I want you to get user input.
+
+I want you to take that user input and calculate the length of the string that the user inputted,
+
+and finally to print that number out into the output area.
+
+And everything could be done in just one line of code.
+
+So try to find the documentation, try to figure out how to do this, and I'll see you on the other
+
+side where we run through the solution.
+
+So pause the video now.
+
+All right.
+
+So referring to the documentation it's pretty straightforward.
+
+The first thing we're going to do is we're going to get hold of the input.
+
+So we know the input function looks like this,
+
+and we can add in whatever prompt we want.
+
+So what is your name?
+
+And then we're going to wrap this input inside another set of parentheses.
+
+And you can do that without having to type open and closing brackets,
+
+if you just highlight the entire line you want to wrap and then type the open bracket,
+
+and it should wrap everything inside.
+
+So the next step is to calculate the length which is using the len() function that we just heard about.
+
+And then finally I'm going to wrap everything in just one more bracket,
+
+and this one is the print() function.
+
+So the three steps are we get hold of the user input,
+
+we calculate the number of characters in that input,
+
+and then finally we print it out into the output area.
+
+So now let's go ahead and run our code.
+
+So first line that comes out is these two print statements from before.
+
+And then the third line asks me what is my name.
+
+And you can see the process is paused, waiting for me to type that in.
+
+And then once I hit Enter, that name is going to replace this part of our code and it's going to calculate
+
+the length.
+
+And then finally that length is going to be printed and we get 6, which is correct.
+
+That's the number of characters in my name.
+
+So hopefully you've learned a little bit about documentation and also search.
+
+And also the importance of being able to get your own answers as a programmer.
+
+So now I have another coding challenge for you.
+
+Can you use what you've learned about creating variables and using variables in order to take these
+
+two parts, the input() function, and the output of the len() function and store them in separate variables.
+
+So there should be a variable called username that will store whatever the user enters into the input
+
+area.
+
+And then using that variable you're going to create a variable called length to calculate the length
+
+of the username.
+
+So then instead of this combined print statement, we can end up with simply just printing length at the
+
+end.
+
+So that way we can get the same result as this,
+
+but we use several steps to get there by creating and using some variables.
+
+So give this a try.
+
+Pause the video and if it doesn't work, come back and we'll go through the solution together.
+
+Okay.
+
+So the first step is we're going to create our first variable which is called username.
+
+And this is simply going to be set to store whatever the user types into the input.
+
+And that will get stored under this reference username.
+
+And then we're going to use that to calculate the length of the username.
+
+But instead of putting the input into the length, we can now refer to it using our variable name, username.
+
+So now we can print this new variable that we created on Line 9 and through these three steps, we've
+
+made this one single line code hopefully a little bit easier to understand.
+
+So we get the username from the input,
+
+we calculate the length from the username,
+
+and then finally we print the length.
+
+And when we hit Run you'll see exactly the same thing happens.
+
+We get the same code.
+
+Now at this point, you might be wondering to yourself what exactly is the point of variables?
+
+We've just turned one very, very short line into three very long lines.
+
+Now, of course, we're working with very, very simple examples here.
+
+And it might be hard to see the exact use case, but as things get more complicated, you will be glad
+
+to know how to use variables.
+
+Even in this simple situation, you can see that instead of this line of code, having these three lines
+
+of code makes our code a lot more readable
+
+because we're labelling each step of our code, we're saying, well, from this line of code, we're
+
+going to get hold of the username, from this line of code, we're going to work out the length of the
+
+username.
+
+And then finally we're going to use that final variable and print it out.
+
+Now as things get more complex, and being able to split up code into smaller modules will become a
+
+lifesaver.
+
+So in the next lesson, I've got a coding exercise for you and hopefully through more and more examples,
+
+you'll see just how useful variables can be.
+
+Right now, bear with me and just try to learn to create variables and use variables,
+
+and I promise it's going to all become very, very clear very soon just how useful they are.
+
+Now, when it comes to naming your variables, you can pretty much call it whatever it is you want.
+
+So instead of calling this name, I could have just called it n, and I could have called this l, and
+
+as long as I'm consistent,
+
+so if I wanted to get the length of n, then I would have to change this as well.
+
+And if I wanted to print out l, then I have to change this as well.
+
+But there's a couple of rules that you should probably follow,
+
+and the most important one is to make your code readable.
+
+Because if you come back to this in 6 months, 12 months, n and l is not going to have a lot of meaning
+
+for you.
+
+So try to make sure that it actually makes sense to you.
+
+And if you want to, you can actually have multiple words in the name of your variable.
+
+So for example, if you wanted to call this username, then you would write the word user, and then
+
+you would separate each of the words with an underscore.
+
+But you can't have a space in between.
+
+This is not valid code.
+
+And if you try to run it, you'll get a SyntaxError.
+
+So the name of the variable has to be one single unit.
+
+And in order to separate words in Python we use the underscore.
+
+Now if you want to use numbers in the name of your variable you can.
+
+So for example length1, length2,
+
+but they can't be at the beginning of the name of the variables.
+
+So you can't say 1length, or 3length.
+
+That will generate a syntax error as well.
+
+Finally, there's certain privileged words that we use,
+
+for example, the names of our functions like print and input.
+
+And it's usually good practice to not use them as the names of your variables, because you can see
+
+that syntax highlighting gets messed up because it thinks that it's actually input() function you're trying
+
+to create.
+
+And even though often when you run your app it might not have any issues, this is really bad practice
+
+because it's very confusing.
+
+So try to make sure that all the names of your variables get highlighted like the other variables in
+
+the same color.
+
+Now, the final thing to remember is that if you decide to call your variable this particular name, N-A-M-E,
+
+and at a later point, you make a typo and you spell it wrong,
+
+so maybe instead of name, you said, nama, this is not going to work.
+
+And when you run your code, you'll get what's called a NameError because it says this name is not
+
+defined.
+
+And the idea is that you would look at where the error is,
+
+Line 2, print nama, and you'll see, "Oh, that's not right."
+
+It's meant to be spelled, N-A-M-E, so you'll have to go and fix it in order for your code to work.
+
+Now remember that this is not because Python is doing any sort of spell checking for you.
+
+It's like, "Oh, that's not how you spell name."
+
+No.
+
+In fact, if you decided to call this nama, and you later on use it as nama, there's no problems. Other
+
+than this green squiggly underline which tells you that there is a typo in this word,
+
+Python doesn't actually care, and that's why your file is still checked because very often you might
+
+be in the situation where you need to create something that is unique, right?
+
+You might have a player in your video game called Nama and you decide to call it that.
+
+It's totally up to you.
+
+And the only thing that Python really cares about is that you are consistent.
+
+This is the name that's associated with this piece of data,
+
+later on, when you want to use this piece of data, you use this name to refer to it.
+
+And as long as these two spellings are identical, then the computer doesn't care at all.
+
+So when you get a NameError in your code, you now know it's probably because you've misspelled or
+
+mistyped one of the variable names somewhere in your code.
+
+Now, in the next lesson, I've prepared a quiz for you where you'll get to select which variable names
+
+are valid, and which ones are not
+
+good practice.
+
+Have a go at that over on the next lesson.
+
+Coding practice 3: Variables
+We have 2 variables glass1 and glass2. glass1 contains milk and glass2 contains juice. Write 3 lines of code to switch the contents of the variables. You are not allowed to type the words "milk" or "juice". You are only allowed to use variables to solve this exercise.
+glass1 = "milk"
+glass2 = "juice"
+glass3 = glass1
+glass1 = glass2
+glass2 = glass3
+
+All right, guys, it's time for the final project of today.
+
+So the program that you're going to be building looks a little bit like this.
+
+And you can check it out if you head over to this link, either by typing it in or heading to the Course
+
+Resources page and clicking on the corresponding link.
+
+But essentially, it's a Band Name Generator, and it asks you for a city that you grew up in and the
+
+name of your pet, and then it combines those together and gives you the name of your band.
+
+There's a couple of things to note here.
+
+Firstly is notice when this input got triggered, the cursor actually showed up on a new line.
+
+So if I run this again, you can see it says, "What's the name of the city you grew up in?"
+
+And then the cursor is on the next line.
+
+And what I want you to do is to go ahead and head over to this stunning project.
+
+So there's a couple of steps in here as hints.
+
+But the important thing is, once you've completed this project, it should work exactly the same as
+
+the one that you see here.
+
+And in order to do this, you're going to have to apply everything that you learned today, including
+
+printing inputs, variables, new lines, string manipulation, debugging, and a whole lot more.
+
+So this is the time to grab yourself a cup of tea or coffee, pause the video, and tackle this final
+
+project.
+
+All right guys, I hope you gave that a go and you were able to complete it.
+
+If you want to see how I've implemented it, or if you want to, just check to see if you have any errors
+
+or if there's something that you're unsure about, then continue watching and I'll go through
+
+the solution with you.
+
+The first step is to create a greeting for your program.
+
+In our case, it says, Welcome to the Band Name Generator,
+
+so that's exactly what I'm going to create.
+
+And we print these messages using the print() function.
+
+So I'm going to say, "Welcome to the Band Name Generator."
+
+And this when I run it will just print that message.
+
+Now the next step is to ask the user for the city that they grew up in.
+
+So in order to get some input from the user, we'll need of course the input() function.
+
+And we're going to ask them using the prompt which goes inside the parentheses,
+
+"Which city did you grow up in?"
+
+So now when I hit run it's going to ask me for the city that I grew up in and I'm able to add a reply
+
+like so.
+
+Now that data is just going to be lost to thin air unless I capture it and I give it a name.
+
+So I'm going to have to create a variable to hold on to the data that the user inputted.
+
+So we'll just call that city and then add the equal sign to assign whatever it is that the user typed
+
+in to this variable name.
+
+And now I have access to this city variable, and I can print it or use it later on if I want to,
+
+like so.
+
+Now the next step is to ask the user for the name of a pet.
+
+So we'll call that variable pet, and we'll assign it the value that the user inputs for
+
+what is the name of a pet?
+
+Now step four is to combine the name of the city and the pet and show them their band name.
+
+Now, there's quite a few ways of doing this, especially if you look around on the internet, but the
+
+way that you learned in today's lessons is using string concatenation.
+
+So we're going to do that.
+
+So we're going to use a print statement and tell them, "Your band name could be:..."
+
+And then we're going to add the name of the city, and then add a space and then add the name of their
+
+pet.
+
+So now when we run our code, it will ask us for the name of their city and then the name of a pet.
+
+And then it should combine those together and show us the name of our band.
+
+Now the final step is that the input cursor should show on a new line like this.
+
+So here's the cursor, but here's the input just so that you get a bit of space and you're not typing
+
+it in directly after the prompt here.
+
+Like what we have.
+
+So how do we do that?
+
+Well, you learned about modifying strings by creating a new line using the \n, and we can add
+
+that both to the end of the city input and the pet input,
+
+and now when we run our code, you'll see that the cursor now shows up on the next line,
+
+and our program looks a lot better.
+
+So there you have it.
+
+This is how you solve this boss challenge.
+
+And this is how you create the Band Name Generator project.
+
+So I hope you had fun with me today, learning Python and a lot of the fundamentals of Python.
+
+And tomorrow I've got another jam-packed module of really awesome tutorials, and code challenges, and
+
+projects for you to sink your teeth into. I'm looking forward to seeing you tomorrow.
+
+So have a rest now and let your brain work on the things that you learned while you sleep,
+
+and I'll see you here bright and early.
+
+Good night, and see you tomorrow.
+
+Final Project:
+print("Welcome to the Band Name Generator.")
+city = input("What's the name of the city you grew up in?\n")
+pet = input("What's your pet's name?\n")
+print("Your band name could be " + city + " " + pet)
